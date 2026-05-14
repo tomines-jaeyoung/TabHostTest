@@ -18,17 +18,22 @@ public class MainActivity extends TabActivity {
 
         setContentView(R.layout.activity_main);
         TabHost tabHost = getTabHost();
-        TabHost.TabSpec tabSpecMusic = tabHost.newTabSpec("music").setIndicator("음악");
-        tabSpecMusic.setContent(R.id.tabMusic);
-        tabHost.addTab(tabSpecMusic);
+        TabHost.TabSpec tabSpecDog = tabHost.newTabSpec("Dog").setIndicator("강아지");
+        tabSpecDog.setContent(R.id.tabDog);
+        tabHost.addTab(tabSpecDog);
 
-        TabHost.TabSpec tabSpecArtist = tabHost.newTabSpec("Artist").setIndicator("가수");
-        tabSpecArtist.setContent(R.id.tabArtist);
-        tabHost.addTab(tabSpecArtist);
+        TabHost.TabSpec tabSpecCat = tabHost.newTabSpec("Cat").setIndicator("고양이");
+        tabSpecCat.setContent(R.id.tabArCat);
+        tabHost.addTab(tabSpecCat);
 
-        TabHost.TabSpec tabSpecAlbum = tabHost.newTabSpec("Album").setIndicator("앨범");
-        tabSpecAlbum.setContent(R.id.tabAlbum);
-        tabHost.addTab(tabSpecAlbum);
+        TabHost.TabSpec tabSpecHorse = tabHost.newTabSpec("Horse").setIndicator("말");
+        tabSpecHorse.setContent(R.id.tabAlHorse);
+        tabHost.addTab(tabSpecHorse);
+
+        TabHost.TabSpec tabSpecRabbit = tabHost.newTabSpec("Rabbit").setIndicator("토끼");
+        tabSpecRabbit.setContent(R.id.tabRabbit);
+        tabHost.addTab(tabSpecRabbit);
+
 
     }
 }

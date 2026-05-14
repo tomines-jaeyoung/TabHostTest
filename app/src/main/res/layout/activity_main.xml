@@ -22,27 +22,43 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <LinearLayout
-                android:id="@+id/tabMusic"
+                android:id="@+id/tabDog"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:gravity="center"
                 android:background="#ff0000"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:src="@drawable/강아지">
+
 
             </LinearLayout>
             <LinearLayout
-                android:id="@+id/tabArtist"
+                android:id="@+id/tabArCat"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:gravity="center"
                 android:background="#ffff00"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:src="@drawable/고양이">
 
             </LinearLayout>
             <LinearLayout
-                android:id="@+id/tabAlbum"
+                android:id="@+id/tabAlHorse"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:gravity="center"
                 android:background="#ff00ff"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:src="@drawable/말">
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/tabRabbit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:background="#ff00ff"
+                android:orientation="vertical"
+                android:src="@drawable/토끼">
             </LinearLayout>
         </FrameLayout>
     </LinearLayout>
